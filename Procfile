@@ -1,1 +1,1 @@
-worker: python -m devgaga
+worker: python -m devgagan
