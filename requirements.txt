@@ -17,3 +17,5 @@ telethon-tgcrypto
 mutagen
 yt-dlp
 speedtest-cli
+
+# Made By Spark Developer 
