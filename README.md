@@ -32,7 +32,6 @@
 * `API_HASH` - Get api hash from <a href="https://my.telegram.org" target="/blank">Telegram Auth</a>
 * `OWNER_ID` - Bot admin/owner user id.
 * `DATABASE_URI` - Mongo Database URL from <a href="https://cloud.mongodb.com" target="/blank">Mongo DB</a>
-* `DATABASE_NAME` - Your database name from mongoDB. (Optional)
 * `LOG_GROUP` - Your Log Group/Channel Id 
 *`FREEMIUM_LIMIT` - Batch Limit For Free Users.
 *`PREMIUM_LIMIT` - Batch Limit For Premium Users.
