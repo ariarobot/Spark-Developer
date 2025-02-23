@@ -287,7 +287,7 @@ def progress_callback(done, total, user_id):
         f"│ **__Speed:__** {speed_mbps:.2f} Mbps\n"
         f"│ **__Time Remaining:__** {remaining_time_min:.2f} min\n"
         f"╰──────────────────╯\n\n"
-        f"**__Powered by @Spark_Developer__**"
+        f"**__Powered by @Adityamajumdaar__**"
     )
     
     # Update tracking variables for the user
