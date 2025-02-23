@@ -654,7 +654,7 @@ async def set_rename_command(user_id, custom_rename_tag):
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
     # Retrieve the user's custom renaming tag if set, or default to 'Team SPY'
-    return user_rename_preferences.get(str(user_id), 'Spark Developer')
+    return user_rename_preferences.get(str(user_id), 'Adityamajumdaar')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
@@ -682,7 +682,7 @@ async def settings_command(event):
         [Button.inline("Session Login", b'addsession'), Button.inline("Logout", b'logout')],
         [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
         [Button.inline("Upload Method", b'uploadmethod')],
-        [Button.url("Report Errors", "https://t.me/Spark_Developer")]
+        [Button.url("Report Errors", "https://t.me/Adityamajumdaar")]
     ]
     
     await gf.send_file(
@@ -745,7 +745,7 @@ async def callback_query_handler(event):
         # Display the buttons for selecting the upload method
         buttons = [
             [Button.inline(f"Pyrogram v2{pyrogram_check}", b'pyrogram')],
-            [Button.inline(f"Spark Developer v1 ⚡{telethon_check}", b'telethon')]
+            [Button.inline(f"Aditya majumdaar v1 ⚡{telethon_check}", b'telethon')]
         ]
         await event.edit("Choose your preferred upload method:\n\n__**Note:** **Spark Developer v1⚡**, built on Telethon(base), by @Spark_Developer still in beta.__", buttons=buttons)
 
@@ -755,7 +755,7 @@ async def callback_query_handler(event):
 
     elif event.data == b'telethon':
         save_user_upload_method(user_id, "Telethon")
-        await event.edit("Upload method set to **Spark Developer v1 Uploader ⚡\n\nThanks for choosing this library as it will help me to analyze the error raise issues in Dm.** ✅")        
+        await event.edit("Upload method set to **Aditya majumdaar v1 Uploader ⚡\n\nThanks for choosing this library as it will help me to analyze the error raise issues in Dm.** ✅")        
     
     elif event.data == b'reset':
         try:
@@ -961,7 +961,7 @@ def progress_callback(done, total, user_id):
     # Format the final output as needed
     final = (
         f"╭────────────────────╮\n"
-        f"│     **__Spark Developer⚡ Uploader__**       \n"
+        f"│     **__Aditya majumdaar⚡ Uploader__**       \n"
         f"├──────────\n"
         f"│ {progress_bar}\n\n"
         f"│ **__Progress:__** {percent:.2f}%\n"
@@ -969,7 +969,7 @@ def progress_callback(done, total, user_id):
         f"│ **__Speed:__** {speed_mbps:.2f} Mbps\n"
         f"│ **__ETA:__** {remaining_time_min:.2f} min\n"
         f"╰────────────────────╯\n\n"
-        f"**__Powered by @Spark_Developer__**"
+        f"**__Powered by @Adityamajumdaar__**"
     )
     
     # Update tracking variables for the user
