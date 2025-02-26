@@ -58,17 +58,17 @@ async def token_handler(client, message):
     if len(message.command) <= 1:
         image_url = "https://files.catbox.moe/lwd4k1.jpg"
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join Channel", url="https://t.me/+bxa7pKmXMCFjMjJl")],
-             [InlineKeyboardButton("Buy Premium", url="https://t.me/Spark_Developer")]])
+            [[InlineKeyboardButton("Join Channel", url="https://t.me/+CdI-SoEuEco3ZDc1")],
+             [InlineKeyboardButton("Buy Premium", url="https://t.me/Adityamajumdaar")]])
 
         # Send the message with the image and keyboard
         await message.reply_photo(
             photo=image_url,
             caption=(
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
+                "✳️ I can save posts from channels or groups where forwarding is off. with high speed data\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> 👉 **Made By Spark Developer (Owner)** "
+                "> 👉 **Made By Adityamajumdaar (Owner)** "
             ),
             reply_markup=keyboard
         )
