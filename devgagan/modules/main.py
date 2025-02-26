@@ -107,7 +107,7 @@ async def batch_link(_, message):
         )
         return
     freecheck = await chk_user(message, user_id)
-    if freecheck == 1 and FREEMIUM_LIMIT == 0 and user_id not in OWNER_ID:
+    if freecheck == 1 and FREEMIUM_LIMIT == 3 and user_id not in OWNER_ID:
         await message.reply("Freemium service is currently unavailable if you want to take free demo of this bot then contact @Adityamajumdaar. Upgrade to premium for unlimited media or files access with high speed data.")
         return    
     toker = await is_user_verified(user_id)
