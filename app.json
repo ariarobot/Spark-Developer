@@ -1,5 +1,5 @@
 {
-  "name": "Advance Save Restricted Content Bot made by Spark Developer",
+  "name": "Advance Save Restricted Content Bot made by Adityamajumdaar",
   "description": "Save Restricted Content Bot by Spark Developer",
   "logo": "https://files.catbox.moe/lwd4k1.jpg",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
@@ -33,12 +33,12 @@
     },    
     "FREEMIUM_LIMIT": {
       "description": "Batch size for free users",
-      "value": "0",
+      "value": "3",
       "required": true
     },
     "PREMIUM_LIMIT": {
       "description": "Batch size for premium users",
-      "value": "500",
+      "value": "10000",
       "required": true
     },
     "STRING": {
