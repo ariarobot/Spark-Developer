@@ -76,7 +76,7 @@ async def get_msg(userbot, sender, edit_id, msg_link, i, message):
         else:
             chat = msg_link.split("/")[-2]
         if chat in saved_channel_ids:
-            await app.edit_message_text(message.chat.id, edit_id, "Sorry! dude 😎 This channel is protected 🔐 by **__Sunny Deol__**")
+            await app.edit_message_text(message.chat.id, edit_id, "Sorry! dude 😎 This channel is protected 🔐 by **__Aditya majumdaar__**")
             return
             
         file = ""
@@ -747,7 +747,7 @@ async def callback_query_handler(event):
             [Button.inline(f"Pyrogram v2{pyrogram_check}", b'pyrogram')],
             [Button.inline(f"Aditya majumdaar v1 ⚡{telethon_check}", b'telethon')]
         ]
-        await event.edit("Choose your preferred upload method:\n\n__**Note:** **Spark Developer v1⚡**, built on Telethon(base), by @Spark_Developer still in beta.__", buttons=buttons)
+        await event.edit("Choose your preferred upload method:\n\n__**Note:** **Aditya majumdaar v1⚡**, built on Telethon(base), by @Adityamajumdaar still in beta.__", buttons=buttons)
 
     elif event.data == b'pyrogram':
         save_user_upload_method(user_id, "Pyrogram")
