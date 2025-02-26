@@ -56,7 +56,7 @@ async def token_handler(client, message):
         return
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://files.catbox.moe/lwd4k1.jpg"
+        image_url = "https://ibb.co/zVxxnGk9"
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("Join Channel", url="https://t.me/+CdI-SoEuEco3ZDc1")],
              [InlineKeyboardButton("Buy Premium", url="https://t.me/Adityamajumdaar")]])
